@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:ital,wght@0,300;0,500;1,400;1,500&family=Saira+Stencil+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="box">
+        <div class="time" id="time">
+            <h1 id="setTime" >19:45:50</h1>
+        </div>
+        <div class="date" id="date">
+            <p id="setDate" >3-26-2022</p>
+        </div>
+        <div class="color" id="color">
+
+<input type="color" id="setColor" onchange="color(); setInterval(color, 100);" >
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
